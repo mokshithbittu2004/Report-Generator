@@ -1,0 +1,56 @@
+# ==============================
+# Core Framework
+# ==============================
+fastapi
+uvicorn[standard]
+
+# ==============================
+# Data Validation & Settings
+# ==============================
+pydantic
+pydantic-settings
+python-dotenv
+
+# ==============================
+# File Handling
+# ==============================
+python-multipart
+
+# ==============================
+# AI / LLM Integration
+# ==============================
+google-genai
+
+# ==============================
+# Logging
+# ==============================
+python-json-logger
+
+# ==============================
+# Monitoring / Observability
+# ==============================
+sentry-sdk[fastapi]
+
+# ==============================
+# Templating
+# ==============================
+Jinja2
+
+# ==============================
+# Performance & Utilities
+# ==============================
+orjson
+httpx
+tenacity
+
+# ==============================
+# Security (Authentication / JWT / Password Hashing)
+# ==============================
+passlib[bcrypt]
+python-jose[cryptography]
+
+# ==============================
+# Testing (Recommended)
+# ==============================
+pytest
+pytest-asyncio
